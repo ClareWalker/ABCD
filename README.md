@@ -26,6 +26,6 @@ The target variables for each step are specified in `cleaning.py` and interactio
 
 # Data analysis
 
-* `WIP_graphicalVAR.ipynb` contains code for preliminary network analysis usig Graphical vector-autoregressive models to investigate dynamical relationships between psychopathogical symptoms (Vars1) and dimensional diagnoses (Vars2) (https://github.com/SachaEpskamp/psychonetrics#graphical-vector-autoregression for more info)
+* `WIP_graphicalVAR.ipynb` contains code for preliminary network analysis usig Graphical vector-autoregressive models to investigate dynamical relationships between psychopathogical symptoms (Vars1) and dimensional diagnoses (Vars2) 
 * `WIP_subject_clusters_PCA_kmeans.ipynb` contains code for preliminary segmentation analysis of subjects using PCA to reduce dimensionality and k-means clustering
 * Outdated analysis on previous versions of the dataset - included as the code and ideas may still be useful going forward. This includes drift-diffusion modelling on forced two-choice tasks (EZ, Hierarchical DDM, Generalised DDM a.k.a. PyDDM) in `__archive_ddm.ipynb`, data-driven ontology discovery using EFA and hierarchical clustering in `__archive_DV_EFA_Hclust.ipynb`, gaussian graphical models adapted from nature network model primer in `__archive_EBICglasso_R.ipynb`, and missing value imputation using missForest in `__archive_missForest_imputation_R.ipynb`
