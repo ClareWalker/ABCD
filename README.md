@@ -20,7 +20,7 @@ The `data_cleaning.ipynb` notebook contains all the code for post-processing of 
 1. remove outliers using a) interquartile ratio with cutoff of 2.5 and b) "natural" bounds from other research or experimental design
 2. standardize continuous variables using StandardScaler
 3. calculate interaction terms based, e.g. between anxiety and depression
-4. propogate fixed demographic variables captured at baseline across subsequent timelines
+4. propogate fixed demographic variables captured at baseline across subsequent time points
 
 The target variables for each step are specified in `data_cleaning.py` and interaction functions are defined in `interactions.py`. It is straightforward to edit either of these files to add/remove variables and interactions.
 
