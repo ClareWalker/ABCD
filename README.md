@@ -22,7 +22,7 @@ The `data_cleaning.ipynb` notebook contains all the code for post-processing of 
 3. calculate interaction terms based, e.g. between anxiety and depression
 4. propogate fixed demographic variables captured at baseline across subsequent timelines
 
-The target variables for each step are specified in `cleaning.py` and interaction functions are defined in `interactions.py`. It is straightforward to edit either of these files to add/remove variables and interactions.
+The target variables for each step are specified in `data_cleaning.py` and interaction functions are defined in `interactions.py`. It is straightforward to edit either of these files to add/remove variables and interactions.
 
 # Data analysis
 
